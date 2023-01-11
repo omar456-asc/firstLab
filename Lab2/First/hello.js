@@ -5,7 +5,7 @@ while(!stop){
 var num = Number(prompt("enter age "));
 if(num <=0)
 {
-    alert("Please enter postive number")
+    alert("Please enter valid age")
 }
 else if(num < 11)
 {

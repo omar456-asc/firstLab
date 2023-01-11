@@ -1,4 +1,6 @@
 var clock = Number(prompt("Enter Clock to convert"));
+if(clock >0 && clock <25)
+{
 if (clock == 0)
 {
     clock+=12;
@@ -17,4 +19,8 @@ else if(clock ==12)
 else
 {
     document.write(`${clock} AM`);
+}
+}
+else{
+    alert("Enter Valid Clock")
 }
